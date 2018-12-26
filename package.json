@@ -1,0 +1,25 @@
+{
+  "name": "thanks-to-leave-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "config": "^3.0.1",
+    "slackbots": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockymanobi/thanks-to-leave-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rockymanobi/thanks-to-leave-bot/issues"
+  },
+  "homepage": "https://github.com/rockymanobi/thanks-to-leave-bot#readme"
+}
