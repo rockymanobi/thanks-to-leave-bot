@@ -11,16 +11,29 @@
 ### Requirements
 
 * node.js (8.x or later) / npm
-* slack app token( see (slack app document)[https://api.slack.com/bot-users] )
+* slack app token(see [slack app document](https://api.slack.com/bot-users))
 
 ### how to run
 
 ```bash
+# clone the repository
 git clone git@github.com:rockymanobi/thanks-to-leave-bot.git
 cd thanks-to-leave-bot
+# install dependencies
 npm i
+# run
 SLACK_TOKEN={your slack token} npm start
 ```
+
+### options(ENV Values)
+
+| key | required | value |
+| --- | --- | --- |
+| SLACK_TOKEN | required | your slack app token(see [slack app document](https://api.slack.com/bot-users)) |
+| STATUS_CHANNEL_NAME | optional | name of slack channel which you want the bot to post its status |
+
+[STATUS_CHANNEL_NAME example](https://user-images.githubusercontent.com/1561249/50434733-dd20dd00-0921-11e9-9a6d-d5d28095a7da.png)
+
 
 # License
 
