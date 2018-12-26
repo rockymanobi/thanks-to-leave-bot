@@ -31,9 +31,9 @@ SLACK_TOKEN={your slack token} npm start
 | key | required | value |
 | --- | --- | --- |
 | SLACK_TOKEN | required | your slack app token(see [slack app document](https://api.slack.com/bot-users)) |
-| STATUS_CHANNEL_NAME | optional | name of slack channel which you want the bot to post its status |
+| STATUS_CHANNEL_NAME | optional | name of slack channel which you want the bot to post its status( see example below) |
 
-**example of STATUS_CHANNEL_NAME**
+**example of STATUS_CHANNEL_NAME** : こんな風にBotの状態を通知してくれます（動いていれば）
 
 ![STATUS_CHANNEL_NAME example](https://user-images.githubusercontent.com/1561249/50434733-dd20dd00-0921-11e9-9a6d-d5d28095a7da.png)
 
